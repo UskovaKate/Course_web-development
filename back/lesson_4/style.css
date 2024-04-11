@@ -1,0 +1,153 @@
+html{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 21px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+body {
+    background-color: #d0e3f7;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+section{
+    margin: 50px;
+}
+.user{
+    color: #fff;;
+    background: #1b1e24;
+    font-size:16px;
+    font-weight: 100;
+    width: 300px;
+    height: 120px;
+    border-radius: 9px;
+    padding: 12px;
+}
+.random_user{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 21px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+/* Стили таблицы */
+.table-fill {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    padding:5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+    margin: auto;
+}
+
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-right: 1px solid #343a45;
+    font-size:18px;
+    font-weight: 100;
+    padding:11px;
+    text-align:center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+}
+
+th:first-child {
+    border-top-left-radius:3px;
+}
+
+th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+}
+
+tr:first-child {
+    border-top:none;
+}
+
+tr:last-child {
+    border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+    background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+    background:#4E5066;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+}
+
+td {
+    background:#FFFFFF;
+    padding:12px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:16px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}

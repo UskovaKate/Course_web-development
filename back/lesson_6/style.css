@@ -1,0 +1,246 @@
+html{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 21px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+body {
+    background-color: #d0e3f7;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+section{
+    margin: 50px;
+}
+.user{
+    color: #fff;
+    background: #1b1e24;
+    font-size: 16px;
+    font-weight: 100;
+    width: 400px;
+    height: 140px;
+    border-radius: 9px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+/* Стили таблицы */
+.table-fill {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    padding:5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+    margin: auto;
+}
+
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-right: 1px solid #343a45;
+    font-size:18px;
+    font-weight: 100;
+    padding:11px;
+    text-align:center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+}
+
+th:first-child {
+    border-top-left-radius:3px;
+}
+
+th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+}
+
+tr:first-child {
+    border-top:none;
+}
+
+tr:last-child {
+    border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+    background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+    background:#4E5066;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+}
+
+td {
+    background:#FFFFFF;
+    padding:12px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:16px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}
+/* Форма регистрации
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+section .signin
+{
+    width: 400px;
+    background: #1b1e24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0,0,0,9);
+    margin: auto;
+}
+section .signin .content
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+section .signin .content h2
+{
+    font-size: 30px;
+    color: #fff;
+}
+section .signin .content .form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+section .signin .content .form .inputBox
+{
+    position: relative;
+    width: 100%;
+}
+section .signin .content .form .inputBox input
+{
+    position: relative;
+    width: 100%;
+    background: #3b3b3b;
+    border: none;
+    outline: none;
+    padding: 25px 10px 7.5px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1em;
+}
+section .signin .content .form .inputBox i
+{
+    position: absolute;
+    left: 0;
+    padding: 15px 10px;
+    font-style: normal;
+    color: #aaa;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.signin .content .form .inputBox input:focus ~ i,
+.signin .content .form .inputBox input:valid ~ i
+{
+    transform: translateY(-7.5px);
+    font-size: 0.8em;
+    color: #fff;
+}
+.signin .content .form .inputBox input[type="submit"]
+{
+    padding: 10px;
+    background: #8b00ff;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+input[type="submit"]:active
+{
+    opacity: 0.6;
+}*/
+
+.pagination{
+    margin-top: 15px;
+    text-align: center;
+    font-weight:300;
+    font-size:20px;
+}
